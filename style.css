@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: grey;
+    font-weight: 400;
+}
+
+.nav-link:hover,
+.nav-link:active {
+    color: black !important;
+}
+
+
+.img-circle {
+    margin-top: 18px;
+    height: 699px;
+    width: 699px;
+    background: #f2f2f2;
+    border-radius: 50%;
+}
+
+.img-circle img {
+    height: 699px;
+}
+
+.content-left {
+    margin-top: 86px;
+}
+
+.content-left .yoga {
+    text-decoration: none;
+    background-color: #f2f2f2;
+    color: grey;
+    padding: 8px 18px;
+    border-radius: 30%;
+}
+
+
+.content-left h1 {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.content-left p {
+    color: grey;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+
+.content-left .btn{
+    background: black;
+    color: white;
+    border-radius: 0;
+    padding: 10px;
+}
+.content-left .btn:hover{
+    opacity: .8;
+}
+
+
+.content-left .social-icon{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid grey;
+    width: 50%;
+    border-radius: 20px;
+}
+
+.content-left .social-icon i{
+    margin: 0 14px;
+    color: rgb(0, 0, 0);
+}
+.content-left .social-icon i:hover{
+    color: rgb(121, 121, 121);
+}
